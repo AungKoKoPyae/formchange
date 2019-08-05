@@ -97,6 +97,11 @@
     <Compile Include="showdata.Designer.cs">
       <DependentUpon>showdata.cs</DependentUpon>
     </Compile>
+    <Compile Include="testImportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>testImportDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="exportTocars.resx">
       <DependentUpon>exportTocars.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,6 +160,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="testImportDataSet.xsc">
+      <DependentUpon>testImportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="testImportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>testImportDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="testImportDataSet.xss">
+      <DependentUpon>testImportDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

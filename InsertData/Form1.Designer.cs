@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.VouncherTextbox = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.ShowDataBtn = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -38,49 +38,49 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.RemarktextBox = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.MDYShorttextBox = new System.Windows.Forms.TextBox();
+            this.PaidcheckBox = new System.Windows.Forms.CheckBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.MDYLabourtextBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.YGNLabouttextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.AmounttextBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.ParticulartextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.PricetextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.LabeltextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.QuantitytextBox = new System.Windows.Forms.TextBox();
+            this.WeightTextBox = new System.Windows.Forms.TextBox();
+            this.YGNNametextBox = new System.Windows.Forms.TextBox();
+            this.MDYNameTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dateTimePicker1
+            // dateTimePicker
             // 
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dateTimePicker1.Location = new System.Drawing.Point(1037, 60);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(289, 28);
-            this.dateTimePicker1.TabIndex = 0;
+            this.dateTimePicker.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dateTimePicker.Location = new System.Drawing.Point(1037, 60);
+            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dateTimePicker.Name = "dateTimePicker";
+            this.dateTimePicker.Size = new System.Drawing.Size(289, 32);
+            this.dateTimePicker.TabIndex = 0;
             // 
-            // textBox1
+            // VouncherTextbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(30, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 28);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "M00001(VouvherNo)";
+            this.VouncherTextbox.Location = new System.Drawing.Point(30, 62);
+            this.VouncherTextbox.Name = "VouncherTextbox";
+            this.VouncherTextbox.Size = new System.Drawing.Size(178, 32);
+            this.VouncherTextbox.TabIndex = 6;
+            this.VouncherTextbox.Text = "M00001(VouvherNo)";
             // 
             // button6
             // 
@@ -145,6 +145,7 @@
             this.button2.TabIndex = 66;
             this.button2.Text = "Save/Print";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button9
             // 
@@ -164,13 +165,13 @@
             this.label13.TabIndex = 62;
             this.label13.Text = "Remark";
             // 
-            // textBox14
+            // RemarktextBox
             // 
-            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(1021, 565);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(236, 36);
-            this.textBox14.TabIndex = 63;
+            this.RemarktextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemarktextBox.Location = new System.Drawing.Point(1021, 565);
+            this.RemarktextBox.Name = "RemarktextBox";
+            this.RemarktextBox.Size = new System.Drawing.Size(236, 41);
+            this.RemarktextBox.TabIndex = 63;
             // 
             // label12
             // 
@@ -181,23 +182,23 @@
             this.label12.TabIndex = 62;
             this.label12.Text = "YGN Labour Charges";
             // 
-            // textBox13
+            // MDYShorttextBox
             // 
-            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(450, 565);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(236, 36);
-            this.textBox13.TabIndex = 61;
+            this.MDYShorttextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MDYShorttextBox.Location = new System.Drawing.Point(450, 565);
+            this.MDYShorttextBox.Name = "MDYShorttextBox";
+            this.MDYShorttextBox.Size = new System.Drawing.Size(236, 41);
+            this.MDYShorttextBox.TabIndex = 61;
             // 
-            // checkBox1
+            // PaidcheckBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(468, 617);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(69, 28);
-            this.checkBox1.TabIndex = 60;
-            this.checkBox1.Text = "Paid";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.PaidcheckBox.AutoSize = true;
+            this.PaidcheckBox.Location = new System.Drawing.Point(468, 617);
+            this.PaidcheckBox.Name = "PaidcheckBox";
+            this.PaidcheckBox.Size = new System.Drawing.Size(82, 30);
+            this.PaidcheckBox.TabIndex = 60;
+            this.PaidcheckBox.Text = "Paid";
+            this.PaidcheckBox.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -208,13 +209,13 @@
             this.label11.TabIndex = 62;
             this.label11.Text = "MDY Labour Charges";
             // 
-            // textBox12
+            // MDYLabourtextBox
             // 
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(1021, 511);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(236, 36);
-            this.textBox12.TabIndex = 58;
+            this.MDYLabourtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MDYLabourtextBox.Location = new System.Drawing.Point(1021, 511);
+            this.MDYLabourtextBox.Name = "MDYLabourtextBox";
+            this.MDYLabourtextBox.Size = new System.Drawing.Size(236, 41);
+            this.MDYLabourtextBox.TabIndex = 58;
             // 
             // label10
             // 
@@ -225,13 +226,13 @@
             this.label10.TabIndex = 62;
             this.label10.Text = "MDY Short Charges";
             // 
-            // textBox11
+            // YGNLabouttextBox
             // 
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(450, 511);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(236, 36);
-            this.textBox11.TabIndex = 56;
+            this.YGNLabouttextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YGNLabouttextBox.Location = new System.Drawing.Point(450, 511);
+            this.YGNLabouttextBox.Name = "YGNLabouttextBox";
+            this.YGNLabouttextBox.Size = new System.Drawing.Size(236, 41);
+            this.YGNLabouttextBox.TabIndex = 56;
             // 
             // label9
             // 
@@ -242,13 +243,13 @@
             this.label9.TabIndex = 62;
             this.label9.Text = "Amount";
             // 
-            // textBox10
+            // AmounttextBox
             // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(1021, 460);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(236, 36);
-            this.textBox10.TabIndex = 54;
+            this.AmounttextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmounttextBox.Location = new System.Drawing.Point(1021, 460);
+            this.AmounttextBox.Name = "AmounttextBox";
+            this.AmounttextBox.Size = new System.Drawing.Size(236, 41);
+            this.AmounttextBox.TabIndex = 54;
             // 
             // label8
             // 
@@ -260,13 +261,13 @@
             this.label8.Text = "Particular";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // textBox9
+            // ParticulartextBox
             // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(450, 460);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(236, 36);
-            this.textBox9.TabIndex = 52;
+            this.ParticulartextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ParticulartextBox.Location = new System.Drawing.Point(450, 460);
+            this.ParticulartextBox.Name = "ParticulartextBox";
+            this.ParticulartextBox.Size = new System.Drawing.Size(236, 41);
+            this.ParticulartextBox.TabIndex = 52;
             // 
             // label7
             // 
@@ -277,13 +278,13 @@
             this.label7.TabIndex = 62;
             this.label7.Text = "Price";
             // 
-            // textBox8
+            // PricetextBox
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(1021, 407);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(236, 36);
-            this.textBox8.TabIndex = 50;
+            this.PricetextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PricetextBox.Location = new System.Drawing.Point(1021, 407);
+            this.PricetextBox.Name = "PricetextBox";
+            this.PricetextBox.Size = new System.Drawing.Size(236, 41);
+            this.PricetextBox.TabIndex = 50;
             // 
             // label6
             // 
@@ -295,13 +296,13 @@
             this.label6.Text = "Label";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox7
+            // LabeltextBox
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(450, 407);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(236, 36);
-            this.textBox7.TabIndex = 48;
+            this.LabeltextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabeltextBox.Location = new System.Drawing.Point(450, 407);
+            this.LabeltextBox.Name = "LabeltextBox";
+            this.LabeltextBox.Size = new System.Drawing.Size(236, 41);
+            this.LabeltextBox.TabIndex = 48;
             // 
             // label5
             // 
@@ -325,37 +326,37 @@
             this.label4.UseMnemonic = false;
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox6
+            // QuantitytextBox
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(1021, 352);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(236, 36);
-            this.textBox6.TabIndex = 45;
+            this.QuantitytextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QuantitytextBox.Location = new System.Drawing.Point(1021, 352);
+            this.QuantitytextBox.Name = "QuantitytextBox";
+            this.QuantitytextBox.Size = new System.Drawing.Size(236, 41);
+            this.QuantitytextBox.TabIndex = 45;
             // 
-            // textBox5
+            // WeightTextBox
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(450, 352);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(236, 36);
-            this.textBox5.TabIndex = 44;
+            this.WeightTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeightTextBox.Location = new System.Drawing.Point(450, 352);
+            this.WeightTextBox.Name = "WeightTextBox";
+            this.WeightTextBox.Size = new System.Drawing.Size(236, 41);
+            this.WeightTextBox.TabIndex = 44;
             // 
-            // textBox4
+            // YGNNametextBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(1021, 295);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(236, 36);
-            this.textBox4.TabIndex = 43;
+            this.YGNNametextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YGNNametextBox.Location = new System.Drawing.Point(1021, 295);
+            this.YGNNametextBox.Name = "YGNNametextBox";
+            this.YGNNametextBox.Size = new System.Drawing.Size(236, 41);
+            this.YGNNametextBox.TabIndex = 43;
             // 
-            // textBox3
+            // MDYNameTextBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(450, 295);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(236, 36);
-            this.textBox3.TabIndex = 42;
+            this.MDYNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MDYNameTextBox.Location = new System.Drawing.Point(450, 295);
+            this.MDYNameTextBox.Name = "MDYNameTextBox";
+            this.MDYNameTextBox.Size = new System.Drawing.Size(236, 41);
+            this.MDYNameTextBox.TabIndex = 42;
             // 
             // label3
             // 
@@ -379,7 +380,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1354, 771);
@@ -387,33 +388,33 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.RemarktextBox);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.MDYShorttextBox);
+            this.Controls.Add(this.PaidcheckBox);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.MDYLabourtextBox);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.YGNLabouttextBox);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.AmounttextBox);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.ParticulartextBox);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.PricetextBox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.LabeltextBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.QuantitytextBox);
+            this.Controls.Add(this.WeightTextBox);
+            this.Controls.Add(this.YGNNametextBox);
+            this.Controls.Add(this.MDYNameTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.VouncherTextbox);
+            this.Controls.Add(this.dateTimePicker);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
@@ -427,8 +428,8 @@
 
         #endregion
 
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker;
+        private System.Windows.Forms.TextBox VouncherTextbox;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button ShowDataBtn;
         private System.Windows.Forms.Button button8;
@@ -437,28 +438,28 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox RemarktextBox;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox MDYShorttextBox;
+        private System.Windows.Forms.CheckBox PaidcheckBox;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox MDYLabourtextBox;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox YGNLabouttextBox;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox AmounttextBox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox ParticulartextBox;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox PricetextBox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox LabeltextBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox QuantitytextBox;
+        private System.Windows.Forms.TextBox WeightTextBox;
+        private System.Windows.Forms.TextBox YGNNametextBox;
+        private System.Windows.Forms.TextBox MDYNameTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
     }

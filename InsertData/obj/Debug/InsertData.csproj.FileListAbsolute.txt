@@ -28,3 +28,18 @@ F:\#alinnyaung\alinnyaung\InsertData\obj\Debug\InsertData.pdb
 F:\#alinnyaung\alinnyaung\InsertData\bin\Debug\InsertData.exe.config
 F:\#alinnyaung\alinnyaung\InsertData\bin\Debug\InsertData.exe
 F:\#alinnyaung\alinnyaung\InsertData\bin\Debug\InsertData.pdb
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.csprojAssemblyReference.cache
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.exportTocars.resources
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.Form1.resources
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.goodslist.resources
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.incomegoods.resources
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.itemlist.resources
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.Properties.Resources.resources
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.showdata.resources
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.csproj.GenerateResource.cache
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.csproj.CoreCompileInputs.cache
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.exe
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\obj\Debug\InsertData.pdb
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\bin\Debug\InsertData.exe.config
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\bin\Debug\InsertData.exe
+C:\Users\Moe Arkar Ohm\Source\Repos\AnotherTEST\Emenald\pinkarka\InsertData\bin\Debug\InsertData.pdb

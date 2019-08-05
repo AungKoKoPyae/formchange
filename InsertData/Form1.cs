@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -71,6 +72,40 @@ namespace InsertData
             exportTocars expToCar = new exportTocars();
             expToCar.ShowDialog();
 
+        }
+        SqlConnection con = new SqlConnection(@"Data Source=ARKAR\SQLEXPRESS;Initial Catalog=testImport;Integrated Security=True");
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (VouncherTextbox.Text == "" || dateTimePicker.Text == "" || MDYNameTextBox.Text == ""
+                    || YGNNametextBox.Text == "" || QuantitytextBox.Text == "" || QuantitytextBox.Text == ""
+                    || LabeltextBox.Text == "" || PricetextBox.Text == "" || ParticulartextBox.Text == ""
+                    || AmounttextBox.Text == "" || MDYShorttextBox.Text == "" || MDYLabourtextBox.Text == ""
+                    || YGNLabouttextBox.Text == "" || RemarktextBox.Text == "")
+                {
+                    MessageBox.Show("All Fields Are required to enter");
+                }
+                else
+                {
+                    SqlCommand cmdinsert = new SqlCommand("Insert into MDY_Ledger_List_Table$ values( ' " + VouncherTextbox.Text + " ','" + MDYNameTextBox.Text + "','" + YGNNametextBox.Text + "',' " + QuantitytextBox.Text + " ','" + QuantitytextBox.Text + "','" + LabeltextBox.Text + "',' " + PricetextBox.Text + " ',N'" + ParticulartextBox.Text + "','" + AmounttextBox.Text + "',' " + MDYShorttextBox.Text + " ','" + MDYLabourtextBox.Text + "','" + PaidcheckBox.Checked.ToString() + "',' " + YGNLabouttextBox.Text + " ','" + RemarktextBox.Text + "','" + dateTimePicker.Value.ToShortDateString() + "' )", con);
+                    con.Open();
+                    cmdinsert.CommandType = CommandType.Text;
+                    cmdinsert.ExecuteNonQuery();
+                    MessageBox.Show("Data Inserted");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+            }
         }
     }
 }
